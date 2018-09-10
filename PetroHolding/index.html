@@ -1,7 +1,32 @@
 <style>
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	h1 {
+		font-size: 52px;
+		text-transform: uppercase;
+		margin-top: 48px;
+	}
+	h2 {
+		font-size: 30px;
+		text-transform: uppercase;
+		text-align: center;
+		height: 96px;
+		padding: 68px 0 0;
+		border-bottom: solid 1px #f4f6f7;
+	}
+	.article {
+		padding: 60px 120px 100px 100px;
+		font-size: 13px;
+	}
+
 	.container {
 		width: 1280px;
 		margin: 0 auto;
+	}
+	.ledge{
+		box-sizing: border-box;
 	}
 	.header {
 		height: 79px;
@@ -16,52 +41,140 @@
 	}
 
 	.intro {
-		height: 504px;
 		background-image: url(images/intro.jpg);
 		overflow: hidden;
 	}
 	.intro p, h1 {
 		text-align: center;
+		color: #ffffff;
 	}
 	.text_intro {
 		font-size: 27px;
+		text-transform: uppercase;
 		margin-top: 123px;
 	}
 	.text_sub_intro {
 		font-size: 18px;
+		text-transform: uppercase;
 		margin-top: 29px;
-	}
-	h1 {
-		font-size: 52px;
-		margin-top: 48px;
 	}
 	.text_large_intro {
 		font-size: 12px;
 		margin-top: 36px;
+		margin-bottom: 137px;
 	}
+
+	.history {
+		background-color: #ffffff;
+		color: #9ca3aa;
+	}
+	
+	.social {
+		background-color: #0092c5;
+		color: #ffffff;
+	}
+
+	.message_pres {
+		height: 1128px;
+		background-color: #F7F5E6;
+	}
+	.message_pres_info {
+		padding: 60px 120px 100px 100px;
+	}
+	.message_pres_img {
+		width: 300px;
+		height: 430px;
+		border-radius: 5px;
+		background: url(images/president.jpg) no-repeat center;
+		background-size: cover;
+		float: left;
+	}
+	
+	.message_pres_info {
+		
+	}
+	.message_pres_info p {
+		padding: 0;
+		margin-left: 360px;
+	}
+
+	.footer {
+		height: 144px;
+		background-color: #1C3144;
+	}
+
 </style>
 
 <body>
 	<div class="container header">
-		
 		<div class="logo">
 			<a href="https://www.google.com/">
 				<img src="images/logo.png" alt="">
 			</a>
 		</div>
-		
 	</div>
-	<div class="container ledge intro">
-		<div class="1">
-			<p class="text_intro">text_intro</p>
-			<p class="text_sub_intro">text_sub_intro</p>
-			<h1>key text</h1>
-			<p class="text_large_intro">text_large_intro</p>
-		</div>
 
+	<div class="container ledge intro">
+		<p class="text_intro">text_intro</p>
+		<p class="text_sub_intro">text_sub_intro</p>
+		<h1>key text</h1>
+		<p class="text_large_intro">text_large_intro</p>
 	</div>
-	<div class="container ledge history"></div>
-	<div class="container ledge social"></div>
-	<div class="container messagePres"></div>
+
+	<div class="container ledge history">
+		<h2>History</h2>
+		<p class="article"> 
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at sem ante. Suspendisse diam velit, porttitor nec lacinia in, ullamcorper vitae neque. Nam egestas eleifend ex sed laoreet. Aliquam non lorem turpis. Donec fermentum sem id iaculis mollis. Pellentesque porttitor suscipit interdum. <br> <br>
+		Sed sem magna, tristique quis molestie id, mollis hendrerit diam. <a href="#"> Phasellus </a> accumsan urna, id placerat erat. Sed ornare congue vestibulum. Donec semper est vel orci molestie blandit. Cras sem ante, bibendum nec tortor sagittis, pretium euismod diam. Aliquam tempor ligula at sapien tincidunt dapibus. <br> <br>
+		Aliquam pretium nisl in vulputate vehicula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin vel magna augue. Maecenas enim mauris, efficitur sed eros sed, finibus viverra nulla. Phasellus cursus purus a lacus finibus, quis tempus arcu scelerisque. <br> <br>
+		Integer suscipit nisl non nisi lobortis, quis eleifend magna pharetra. <a href="#"> Phasellus </a> eget libero at sem consectetur suscipit. Ut viverra neque vitae convallis rhoncus. Suspendisse eu dictum mauris. <br> <br>
+		Nam id eleifend velit. Phasellus arcu sapien, vestibulum id enim vitae, condimentum efficitur est. Morbi faucibus arcu quis risus congue porta.<br> <br>
+		Lorem ipsum dolor sit amet, consectetur <a href="#"> Phasellus </a> elit. Aenean at sem ante. Suspendisse diam velit, porttitor nec lacinia in, ullamcorper vitae neque. Nam egestas eleifend ex sed laoreet. Aliquam non lorem turpis. Donec fermentum sem id iaculis mollis. Pellentesque porttitor suscipit interdum. <br> <br>
+		Sed sem magna, tristique quis molestie id, mollis hendrerit diam. Phasellus a accumsan urna, id placerat erat. Sed ornare congue vestibulum. Donec semper est vel orci molestie blandit. Cras sem ante, bibendum nec tortor sagittis, pretium euismod diam. Aliquam tempor ligula at sapien tincidunt dapibus. <br> <br>
+		Aliquam pretium nisl in vulputate vehicula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin vel magna augue. Maecenas enim mauris, efficitur sed eros sed, finibus viverra nulla. Phasellus cursus purus a lacus finibus, quis tempus arcu scelerisque. <br> <br>
+		Integer suscipit nisl non nisi lobortis, quis eleifend magna pharetra. Pellentesque eget libero at sem consectetur suscipit. Ut viverra neque vitae convallis rhoncus. Suspendisse eu dictum mauris. <br> <br>
+		Nam id eleifend velit. Phasellus arcu sapien, vestibulum id enim vitae, condimentum efficitur est. Morbi faucibus arcu quis risus congue porta. </p>
+	</div>
+
+	<div class="container ledge social">
+		<h2>social</h2>
+		<p class="article"> 
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at sem ante. Suspendisse diam velit, porttitor nec lacinia in, ullamcorper vitae neque. Nam egestas eleifend ex sed laoreet. Aliquam non lorem turpis. Donec fermentum sem id iaculis mollis. Pellentesque porttitor suscipit interdum. <br> <br>
+			Sed sem magna, tristique quis molestie id, mollis hendrerit diam.  Phasellus  accumsan urna, id placerat erat. Sed ornare congue vestibulum. Donec semper est vel orci molestie blandit. Cras sem ante, bibendum nec tortor sagittis, pretium euismod diam. Aliquam tempor ligula at sapien tincidunt dapibus. <br> <br>
+			Aliquam pretium nisl in vulputate vehicula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin vel magna augue. Maecenas enim mauris, efficitur sed eros sed, finibus viverra nulla. Phasellus cursus purus a lacus finibus, quis tempus arcu scelerisque. <br> <br>
+			Integer suscipit nisl non nisi lobortis, quis eleifend magna pharetra. eget libero at sem consectetur suscipit. Ut viverra neque vitae convallis rhoncus. Suspendisse eu dictum mauris. <br> <br>
+			Nam id eleifend velit. Phasellus arcu sapien, vestibulum id enim vitae, condimentum efficitur est. Morbi faucibus arcu quis risus congue porta.<br> <br>
+			Lorem ipsum dolor sit amet, consectetur  elit. Aenean at sem ante. Suspendisse diam velit, porttitor nec lacinia in, ullamcorper vitae neque. Nam egestas eleifend ex sed laoreet. Aliquam non lorem turpis. Donec fermentum sem id iaculis mollis. Pellentesque porttitor suscipit interdum. <br> <br>
+			Sed sem magna, tristique quis molestie id, mollis hendrerit diam. Phasellus a accumsan urna, id placerat erat. Sed ornare congue vestibulum. Donec semper est vel orci molestie blandit. Cras sem ante, bibendum nec tortor sagittis, pretium euismod diam. Aliquam tempor ligula at sapien tincidunt dapibus. <br> <br>
+			Aliquam pretium nisl in vulputate vehicula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin vel magna augue. Maecenas enim mauris, efficitur sed eros sed, finibus viverra nulla. Phasellus cursus purus a lacus finibus, quis tempus arcu scelerisque. <br> <br>
+			Integer suscipit nisl non nisi lobortis, quis eleifend magna pharetra. Pellentesque eget libero at sem consectetur suscipit. Ut viverra neque vitae convallis rhoncus. Suspendisse eu dictum mauris. <br> <br>
+			Nam id eleifend velit. Phasellus arcu sapien, vestibulum id enim vitae, condimentum efficitur est. Morbi faucibus arcu quis risus congue porta. 
+		</p>
+	</div>
+
+	<div class="container message_pres">
+		<h2>message of President</h2>
+		<div class="message_pres_info">
+			<div class="message_pres_img"></div>
+			<p class="article"> 
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at sem ante. Suspendisse diam velit, porttitor nec lacinia in, ullamcorper vitae neque. Nam egestas eleifend ex sed laoreet. Aliquam non lorem turpis. Donec fermentum sem id iaculis mollis. Pellentesque porttitor suscipit interdum. <br> <br>
+				Sed sem magna, tristique quis molestie id, mollis hendrerit diam.  Phasellus  accumsan urna, id placerat erat. Sed ornare congue vestibulum. Donec semper est vel orci molestie blandit. Cras sem ante, bibendum nec tortor sagittis, pretium euismod diam. Aliquam tempor ligula at sapien tincidunt dapibus. <br> <br>
+				Aliquam pretium nisl in vulputate vehicula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin vel magna augue. Maecenas enim mauris, efficitur sed eros sed, finibus viverra nulla. Phasellus cursus purus a lacus finibus, quis tempus arcu scelerisque. <br> <br>
+				Integer suscipit nisl non nisi lobortis, quis eleifend magna pharetra. eget libero at sem consectetur suscipit. Ut viverra neque vitae convallis rhoncus. Suspendisse eu dictum mauris. <br> <br>
+				Nam id eleifend velit. Phasellus arcu sapien, vestibulum id enim vitae, condimentum efficitur est. Morbi faucibus arcu quis risus congue porta.<br> <br>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at sem ante. Suspendisse diam velit, porttitor nec lacinia in, ullamcorper vitae neque. Nam egestas eleifend ex sed laoreet. Aliquam non lorem turpis. Donec fermentum sem id iaculis mollis. Pellentesque porttitor suscipit interdum. <br> <br>
+				Sed sem magna, tristique quis molestie id, mollis hendrerit diam.  Phasellus  accumsan urna, id placerat erat. Sed ornare congue vestibulum. Donec semper est vel orci molestie blandit. Cras sem ante, bibendum nec tortor sagittis, pretium euismod diam. Aliquam tempor ligula at sapien tincidunt dapibus. <br> <br>
+				Aliquam pretium nisl in vulputate vehicula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin vel magna augue. Maecenas enim mauris, efficitur sed eros sed, finibus viverra nulla. Phasellus cursus purus a lacus finibus, quis tempus arcu scelerisque. <br> <br>
+				Integer suscipit nisl non nisi lobortis, quis eleifend magna pharetra. eget libero at sem consectetur suscipit. Ut viverra neque vitae convallis rhoncus. Suspendisse eu dictum mauris. <br> <br>
+				Nam id eleifend velit. Phasellus arcu sapien, vestibulum id enim vitae, condimentum efficitur est. Morbi faucibus arcu quis risus congue porta.<br> <br>
+				Lorem ipsum dolor sit amet, consectetur  elit. Aenean at sem ante. Suspendisse diam velit, porttitor nec lacinia in, ullamcorper vitae neque. Nam egestas eleifend ex sed laoreet. Aliquam non lorem turpis. Donec fermentum sem id iaculis mollis. Pellentesque porttitor suscipit interdum. <br> <br>
+				Sed sem magna, tristique quis molestie id, mollis hendrerit diam. Phasellus a accumsan urna, id placerat erat. Sed ornare congue vestibulum. Donec semper est vel orci molestie blandit. Cras sem ante, bibendum nec tortor sagittis, pretium euismod diam. Aliquam tempor ligula at sapien tincidunt dapibus. <br> <br>
+				Aliquam pretium nisl in vulputate vehicula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin vel magna augue. Maecenas enim mauris, efficitur sed eros sed, finibus viverra nulla. Phasellus cursus purus a lacus finibus, quis tempus arcu scelerisque. <br> <br>
+				Integer suscipit nisl non nisi lobortis, quis eleifend magna pharetra. Pellentesque eget libero at sem consectetur suscipit. Ut viverra neque vitae convallis rhoncus. Suspendisse eu dictum mauris. <br> <br>
+				Nam id eleifend velit. Phasellus arcu sapien, vestibulum id enim vitae, condimentum efficitur est. Morbi faucibus arcu quis risus congue porta. 
+			</p>
+		</div>
+	</div>
+
 	<div class="container footer "></div>
 </body>
